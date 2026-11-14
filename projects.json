@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Mace Glitch Fix",
+        "edition": "Paper",
+        "description": "Fixes the glitch where players abused ghost blocks to keep their mace damage bonus",
+        "links": {
+            "modrinth": "https://modrinth.com/plugin/mace-glitch-fix",
+            "curseforge": "https://www.curseforge.com/minecraft/bukkit-plugins/mace-glitch-fix",
+            "github": "https://github.com/DeactivatedMan/mace-glitch-fix"
+        }
+    },
+    {
+        "name": "Mace Glitch Fix",
+        "edition": "Fabric",
+        "description": "Fixes the glitch where players abused ghost blocks to keep their mace damage bonus",
+        "links": {
+            "modrinth": "https://modrinth.com/mod/mace-glitch-fix",
+            "curseforge": "https://www.curseforge.com/minecraft/mc-mods/mace-glitch-fix",
+            "github": "https://github.com/DeactivatedMan/mace-glitch-fix-fabric"
+        }
+    },
+    {
+        "name": "Cap Pearl Speed",
+        "edition": "Paper",
+        "description": "Caps the speed of ender pearls to prevent pearl cannons from lagging your server",
+        "links": {
+            "modrinth": "https://modrinth.com/plugin/cap-pearl-speed",
+            "curseforge": "https://www.curseforge.com/minecraft/bukkit-plugins/cap-pearl-speed",
+            "github": "https://github.com/DeactivatedMan/cap-pearl-speed"
+        }
+    },
+
+    {
+        "name": "Broken Hoppers",
+        "edition": "Paper",
+        "description": "Hoppers destroy themselves whenever you try to use them",
+        "links": {
+            "modrinth": "https://modrinth.com/plugin/broken-hoppers",
+            "curseforge": "https://www.curseforge.com/minecraft/bukkit-plugins/broken-hoppers",
+            "github": "https://github.com/DeactivatedMan/broken-hoppers"
+        }
+    },
+    {
+        "name": "Request Location",
+        "edition": "Paper",
+        "description": "Request the location of another player with a simple command, no F3 required",
+        "links": {
+            "modrinth": "https://modrinth.com/plugin/request-location",
+            "curseforge": "https://www.curseforge.com/minecraft/bukkit-plugins/request-location",
+            "github": "https://github.com/DeactivatedMan/request-location"
+        }
+    }
+]

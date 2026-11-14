@@ -1,0 +1,150 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+  background-color: #121214;
+  color: #f4f4f6;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.projects-grid {
+  max-width: 900px;
+  margin: 48px auto;
+  padding: 0 20px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 640px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  background-color: #1c1c20;
+  border: 1px solid #2e2e34;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Edition badges */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.badge svg {
+  width: 13px;
+  height: 13px;
+  flex-shrink: 0;
+}
+
+.badge-paper {
+  background-color: rgba(56, 189, 248, 0.12);
+  color: #7dd3fc;
+  border: 1px solid rgba(56, 189, 248, 0.28);
+}
+
+.badge-fabric {
+  background-color: rgba(219, 208, 180, 0.12);
+  color: #dbd0b4;
+  border: 1px solid rgba(219, 208, 180, 0.28);
+}
+
+/* Description fills remaining height */
+.card-desc {
+  font-size: 0.9rem;
+  color: #a1a1aa;
+  flex: 1;
+  margin-bottom: 18px;
+}
+
+/* Platform buttons row */
+.card-links {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+
+.btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.btn svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+.btn-modrinth {
+  background-color: rgba(27, 217, 106, 0.1);
+  color: #1bd96a;
+  border-color: rgba(27, 217, 106, 0.25);
+}
+
+.btn-modrinth:hover {
+  background-color: rgba(27, 217, 106, 0.18);
+}
+
+.btn-curseforge {
+  background-color: rgba(241, 100, 54, 0.1);
+  color: #f16436;
+  border-color: rgba(241, 100, 54, 0.25);
+}
+
+.btn-curseforge:hover {
+  background-color: rgba(241, 100, 54, 0.18);
+}
+
+.btn-github {
+  background-color: #25252b;
+  color: #e4e4e7;
+  border-color: #36363e;
+}
+
+.btn-github:hover {
+  background-color: #303038;
+}
